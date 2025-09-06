@@ -1,0 +1,68 @@
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+li {
+  max-width: 136px;
+  height: 8rem;
+
+  display: flex;
+  align-items: flex-end;
+
+  text-align: center;
+}
+
+ul li div {
+  color: var(--color-button--primary);
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-direction: column;
+}
+
+ul li:nth-child(3) img {
+  margin-bottom: 1rem;
+}
+
+/* Container */
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  overflow: hidden;
+}
+
+.containerLeft {
+  width: 40%;
+  height: 100%;
+}
+
+.containerRight {
+  width: 60%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 8rem;
+}
+
+.navList {
+  display: flex;
+  justify-content: center;
+}
