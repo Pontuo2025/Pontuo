@@ -44,7 +44,7 @@ ul li:nth-child(3) img {
   height: 100vh;
   display: flex;
 
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .containerLeft {
