@@ -25,6 +25,7 @@ ul li div {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
+  font-size: 20px;
 }
 
 ul li a {
@@ -47,11 +48,18 @@ ul li:nth-child(3) img {
   overflow: hidden;
 }
 
+/* Container left */
 .containerLeft {
   width: 40%;
   height: 100%;
+  display: flex;
+  justify-content: end;
+  padding-right: 6rem;
 }
 
+
+
+/* Container right */
 .containerRight {
   width: 60%;
   height: 100%;
