@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  overflow-x: hidden; /* Remove scroll horizontal por padrão */
+}
+
 body {
   background-image: url("../../img/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
