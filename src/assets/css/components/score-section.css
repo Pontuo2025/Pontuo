@@ -1,0 +1,24 @@
+/* Seção de pontuação do mês */
+.score-section {
+  background: rgba(255, 255, 255, 0.95);
+  border: 2px solid var(--color-button--primary);
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.score-title {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--color-text--secondary);
+  margin-bottom: 1rem;
+}
+
+/* Container do call-to-action */
+.cta-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}

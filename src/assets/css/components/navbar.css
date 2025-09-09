@@ -1,0 +1,35 @@
+/* Estilos da lista de navegação */
+.navList {
+  display: flex;
+  justify-content: center;
+}
+
+.navList ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navList li {
+  max-width: 136px;
+  height: 8rem;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.navList ul li div {
+  color: var(--color-button--primary);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.navList ul li a {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-direction: column;
+  text-decoration: none;
+}

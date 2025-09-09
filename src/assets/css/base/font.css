@@ -1,0 +1,38 @@
+/* Configurações base de fonte para o projeto */
+
+/* Headings padrão */
+
+h1 {
+  font-size: var(--font-size-5xl);
+}
+
+h2 {
+  font-size: var(--font-size-3xl);
+}
+
+h3 {
+  font-size: var(--font-size-2xl);
+}
+
+h4 {
+  font-size: var(--font-size-xl);
+}
+
+h5 {
+  font-size: var(--font-size-lg);
+}
+
+h6 {
+  font-size: var(--font-size-base);
+}
+
+/* Parágrafos */
+p {
+  margin-bottom: 1em;
+}
+
+/* Links */
+a {
+  color: var(--color-button--primary);
+  transition: color var(--transition-normal);
+}

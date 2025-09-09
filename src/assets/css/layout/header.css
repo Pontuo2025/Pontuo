@@ -24,46 +24,21 @@ header {
 
 header a {
   display: flex;
-
-  margin-right: 4rem;
   width: fit-content;
   height: fit-content;
-  gap: 1rem;
 }
 
 .logoHeader {
   display: flex;
-
   width: 21.31rem;
   height: 4.87rem;
   margin-top: 20px;
-  
 }
 
 .logoHeader img {
   width: 50px;
   height: 50px;
+  margin-left: 10px;
   object-fit: contain;
   align-self: center;
-}
-
-.loginButton {
-  width: 22rem;
-  height: 3.75rem;
-
-  background: var(--color-button--primary);
-  color: var(--color-text--primary);
-
-  cursor: pointer;
-
-  border-radius: 1rem;
-  border: none;
-
-  font-family: Poppins;
-  font-weight: 700;
-  font-style: Bold;
-  font-size: 16px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
 }

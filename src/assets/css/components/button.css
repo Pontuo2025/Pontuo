@@ -1,0 +1,61 @@
+/* Botão principal de login */
+.loginButton {
+  width: 22rem;
+  height: 3.75rem;
+
+  background: var(--color-button--primary);
+  color: var(--color-text--primary);
+
+  cursor: pointer;
+
+  border-radius: var(--border-radius-medium);
+  border: none;
+
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: var(--font-size-base);
+  line-height: 100%;
+  text-align: center;
+}
+
+/* Botões da seção de pontuação */
+.score-buttons {
+  display: flex;
+  gap: var(--spacing-sm);
+  justify-content: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.score-btn {
+  padding: var(--spacing-xs) var(--spacing-md);
+  border: none;
+  border-radius: var(--border-radius-small);
+  cursor: pointer;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+}
+
+.score-btn.primary {
+  background: var(--color-button--secondary);
+  color: var(--color-text--primary);
+}
+
+.score-btn.secondary {
+  background: var(--color-button--primary);
+  color: var(--color-text--primary);
+}
+
+/* Botão de call-to-action principal */
+.cta-button {
+  background: var(--color-button--primary);
+  color: var(--color-text--primary);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 18px;
+}
