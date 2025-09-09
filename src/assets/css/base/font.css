@@ -34,5 +34,4 @@ p {
 /* Links */
 a {
   color: var(--color-button--primary);
-  transition: color var(--transition-normal);
 }
