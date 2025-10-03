@@ -1,8 +1,0 @@
-@import url("../base/reset.css");
-@import url("../layout/header.css");
-
-body.home {
-  overflow: hidden;
-  height: 100vh; /* Força altura exata da viewport */
-  max-height: 100vh; /* Limita altura máxima */
-}
