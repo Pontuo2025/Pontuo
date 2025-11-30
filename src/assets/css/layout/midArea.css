@@ -4,17 +4,17 @@
 }
 main {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .topContentArea {
   background: url("../../img/image 27.png");
-  background-size: 100vw 960px;
+  background-size: 100% 960px;
   background-repeat: no-repeat;
   background-position: center;
 
   height: 960px;
-  width: 100vw;
+  width: 100%;
 }
 
 .topContentArea p {
@@ -33,12 +33,12 @@ main {
 
 .bottomMainSection {
   background: url("../../img/background.png");
-  background-size: 100vw 911px;
+  background-size: 100% 911px;
   background-repeat: no-repeat;
   background-position: center;
 
   height: 911px;
-  width: 100vw;
+  width: 100%;
 
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@ main {
   align-items: center;
   justify-content: space-between;
 
-  width: 100vw;
+  width: 100%;
   padding-top: 4.8125rem;
 }
 
@@ -94,7 +94,7 @@ main {
 }
 
 .secondBottomContentArea {
-  width: 100vw;
+  width: 100%;
   padding: 0 5.813rem;
 }
 .secondBottomContentArea ul {
