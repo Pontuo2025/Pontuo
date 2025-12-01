@@ -1,5 +1,5 @@
 header {
-  width: 100vw;
+  width: 100%;
   height: 7.5rem;
 
   display: flex;
@@ -45,22 +45,19 @@ header {
   color: #000000;
 }
 
-.user-profile button {
+.user-profile a {
   width: 21.25rem;
   height: 3.5rem;
 
   background-color: #d46c41;
 
   border-radius: 16px;
-  border: none;
-}
 
-.user-profile button a {
   text-decoration: none;
 
   font-family: Epilogue, sans-serif;
   font-weight: 700;
-  font-style: Bold;
+  /* font-style: Bold; */
 
   color: white;
 
@@ -69,7 +66,7 @@ header {
   align-items: center;
 }
 
-.user-profile button a span {
+.user-profile a span {
   margin-left: 10px;
 }
 
