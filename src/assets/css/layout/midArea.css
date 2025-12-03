@@ -45,7 +45,7 @@ main {
   align-items: center;
 }
 
-.firstBottomContentArea {
+.firstCenterContentArea {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -54,7 +54,7 @@ main {
   padding-top: 4.8125rem;
 }
 
-.firstBottomContentArea p:nth-child(1) {
+.firstCenterContentArea p:nth-child(1) {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -68,7 +68,7 @@ main {
   padding-left: 3.5rem;
 }
 
-.firstBottomContentArea p:nth-child(2) {
+.firstCenterContentArea p:nth-child(2) {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -93,16 +93,16 @@ main {
   width: fit-content;
 }
 
-.secondBottomContentArea {
+.secondCenterContentArea {
   width: 100%;
   padding: 0 5.813rem;
 }
-.secondBottomContentArea ul {
+.secondCenterContentArea ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
-.secondBottomContentArea ul li {
+.secondCenterContentArea ul li {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -110,7 +110,7 @@ main {
   width: 27rem;
 }
 
-.secondBottomContentArea ul li h2 {
+.secondCenterContentArea ul li h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 32px;
@@ -123,7 +123,7 @@ main {
   width: max-content;
 }
 
-.secondBottomContentArea ul li p {
+.secondCenterContentArea ul li p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -133,12 +133,12 @@ main {
   width: 23rem;
 }
 
-.secondBottomContentArea ul li:nth-child(1) {
+.secondCenterContentArea ul li:nth-child(1) {
   position: relative;
   box-sizing: border-box;
 }
 
-.secondBottomContentArea ul li:nth-child(1)::after {
+.secondCenterContentArea ul li:nth-child(1)::after {
   content: "";
   position: absolute;
   top: 4.6875rem;
@@ -148,12 +148,12 @@ main {
   background: #D46C41;
 }
 
-.secondBottomContentArea ul li:nth-child(2) {
+.secondCenterContentArea ul li:nth-child(2) {
   position: relative;
   box-sizing: border-box;
 }
 
-.secondBottomContentArea ul li:nth-child(2)::after {
+.secondCenterContentArea ul li:nth-child(2)::after {
   content: "";
   position: absolute;
   top: 4.6875rem;
