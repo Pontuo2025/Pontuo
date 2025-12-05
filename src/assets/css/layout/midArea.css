@@ -24,6 +24,9 @@ main {
   font-size: 48px;
   text-align: center;
 
+  display: flex;
+  justify-self: center;
+
   color: var(--color-black);
 
   padding-left: 1.4375rem;
