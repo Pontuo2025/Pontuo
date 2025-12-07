@@ -8,12 +8,12 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 3.2rem;
 }
 
 .navList li {
-  max-width: 136px;
-  height: 8rem;
+  max-width: 13.6rem;
+  height: 12.8rem;
   display: flex;
   align-items: flex-end;
   text-align: center;
@@ -23,13 +23,13 @@
   color: var(--color-button--primary);
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .navList ul li a {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
+  gap: 1.3rem;
   flex-direction: column;
   text-decoration: none;
 }
