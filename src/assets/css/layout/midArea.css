@@ -63,6 +63,7 @@ main {
   justify-content: center;
   max-width: 135.2rem;
   min-height: 15rem;
+
 }
 
 .titleFirstCenterContentArea {
@@ -88,42 +89,6 @@ main {
   /* line-height: 100%; */
   color: #000000;
 }
-
-/* .firstCenterContentArea {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  width: 100%;
-  padding-top: 7.7rem;
-} */
-
-
-
-/* .firstCenterContentArea p:nth-child(1) {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 3.6rem;
-  text-align: center;
-
-  color: var(--color-blue-dark);
-
-  width: fit-content;
-  padding-top: 8.8rem;
-  padding-left: 5.6rem;
-}
-
-.firstCenterContentArea p:nth-child(2) {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 2rem;
-
-  color: var(--color-black);
-
-  width: 67.3rem;
-} */
 
 .subTitle {
   font-family: "Poppins", sans-serif;
@@ -177,6 +142,7 @@ main {
   text-align: center;
   color: var(--color-black);
   width: 36.8rem;
+  padding-left: 1rem;
 }
 
 .secondCenterContentArea ul li:nth-child(1) {
