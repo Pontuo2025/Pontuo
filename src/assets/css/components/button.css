@@ -1,7 +1,7 @@
 /* Botão principal de login */
 .loginButton {
-  width: 35.2rem;
-  height: 6rem;
+  max-width: 35.2rem;
+  min-height: 6rem;
 
   background: var(--color-button--primary);
   color: var(--color-text--primary);

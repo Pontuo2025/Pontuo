@@ -20,8 +20,12 @@ main{
 }
 
 .contentFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
     max-width: 134rem;
     padding: 0 3.2rem;
+    
 }
 
 .titleFooter{
@@ -52,6 +56,7 @@ main{
     min-height: 16.8rem;
     row-gap: 1.6rem;
     column-gap: 1.6rem;
+    padding: 3.2rem;
 }
 
 /* coluna da esquerda */
