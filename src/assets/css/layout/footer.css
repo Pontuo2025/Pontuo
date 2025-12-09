@@ -14,7 +14,6 @@ main{
 }
 
 .containerFooter{
-    width: 100%;
     max-width: 140rem;
     margin: 0 auto;
 }
@@ -113,7 +112,7 @@ main{
 .contactFooter a{
     display: flex;
     font-family: "Poppins", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 2rem;
     text-decoration: none;
     color: #FFFFFF;  
