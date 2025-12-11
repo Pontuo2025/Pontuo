@@ -78,3 +78,34 @@ header {
   border: 1.5px solid #FFFFFF;
   stroke: #FFFFFF !important;
 }
+
+@media (max-width: 700px) {
+  .containerHeader {
+    max-width: 700px;
+    height: auto;
+
+    padding: 0.9rem 3.2rem;
+  }
+
+  .logo {
+    max-width: 20.7rem;
+    height: auto;
+    font-size: 4.8rem;
+  }
+
+  .user-profile {
+    width: 20.1rem;
+    height: 4.1rem;
+
+    display: flex;
+    justify-self: center;
+    gap: 0;   
+  }
+
+  .user-profile a {
+    width: 100%;
+    height: auto;
+    font-size: 1.6rem;
+  }
+
+}
