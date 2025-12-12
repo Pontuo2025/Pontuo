@@ -1,3 +1,4 @@
+/* Responsividade Desktop */
 .bottomMainSection {
   background: url("../../img/backgroundBottomSection.png") center/cover no-repeat;
   width: 100%;
@@ -131,4 +132,152 @@ p {
 
   text-align: center;
   color: #000000;
+}
+
+
+
+/* Responsividade Mobile */
+@media (max-width: 70rem) {
+  .bottomMainSection {
+  width: 100%;
+  min-height: 131.7rem;
+  background-image: url("../../img/backgroundBottomSection.png") left, url("../../img/backgroundBottomSectionRight.png") right;
+   background-repeat: repeat-y, repeat-y;
+  background-position: left top, right top;
+  background-size: contain;
+  }
+
+
+
+.containerBottomSection {
+  width: 100%;
+  max-width: 70rem;
+  min-height: 131.7rem;
+
+  padding: 4.8rem 13.7rem 5.6rem 13.7rem;
+}
+
+.cardBottomCenter {
+  width: 100%;
+  align-items: center;
+
+  max-width: 42.6rem;
+  min-height: 3.6rem;
+
+}
+
+.contentBottomCenter h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: 5rem;
+  
+
+  color: var(--color-black);
+}
+
+.cardScore {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.cardScore ul {
+  max-width: 70rem;
+  min-height: 121.3rem;
+}
+
+.cardScore li {
+  width: 100%;
+  max-width: 33.2rem;
+  min-height: 30rem;
+  margin: 0 auto;
+  justify-items: center;
+
+  border-radius: 1.5rem;
+  border: 1px solid #000;
+  box-shadow: 0 .4 .4rem rgba(0, 0, 0, 0.25);
+  padding-bottom: 1rem;
+  
+  background-color: #283c71;
+}
+
+.point {
+  max-width: 6.6rem;
+  min-height: 6.6rem;
+  margin-bottom: -11rem;
+}
+
+.medal {
+  max-width: 6,7rem;
+  min-height: 10rem;
+  margin-bottom: -11rem;
+}
+
+.trophy {
+  max-width: 6.7rem;
+  min-height: 10rem;
+  margin-bottom: -12rem;
+  /* margin-top: -500px; */
+}
+
+
+
+.cardScore,
+.scoreMedal,
+.scoreTrophy 
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 auto;
+  padding-left: 18rem;
+  width: 70rem;
+}
+
+.scoreTrophy p {
+  margin-bottom: 1rem;
+  margin-right: 18rem;
+}
+
+.textBottomCenter {
+  /* width: 100%; */
+  margin: 5rem auto;
+  align-items: center;
+  max-width: 60rem;
+  min-height: 12.4rem;
+  background-color: #d9d9d999;
+  border: 0.2rem solid #d46d41;
+  border-radius: 1.5rem;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  margin-bottom: 0;
+
+
+}
+
+.boxText {
+  width: 60rem;
+
+}
+
+.boxText p {
+  margin: auto;
+  width: 45rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding-top: 2.2rem;
+
+  text-align: center;
+  color: var(--color-black);
+}
+
 }
