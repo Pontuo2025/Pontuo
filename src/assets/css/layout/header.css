@@ -4,14 +4,14 @@ header {
 
 .containerHeader{
   max-width: 140rem;
-  min-height: 12rem;
+  max-height: 12rem;
   margin: 0 auto;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  padding: 3rem 3.5rem 0 3.5rem;
+  padding: .9rem 3.2rem;
   background-color: white;
 }
 
@@ -19,6 +19,7 @@ header {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 5.5rem;
+  max-width: 19.8rem;
 }
 
 .logo a {
@@ -38,45 +39,46 @@ header {
 
   font-family: Poppins, sans-serif;
   font-weight: 600;
-  /* font-style: SemiBold; */
   font-size: 2rem;
 }
 
 .menu ul li a {
   text-decoration: none;
   color: #000000;
+  font-size: 1.6rem;
+}
+
+.user-profile {
+  max-width: 34rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.6rem;
+  background-color: #d46c41;
+  padding: 1.6rem 3.6rem;
 }
 
 .user-profile a {
-  width: 34rem;
-  height: 5.6rem;
-
-  background-color: #d46c41;
-
-  border-radius: 1.6rem;
-
   text-decoration: none;
   font-size: 1.6rem;
   font-family: Epilogue, sans-serif;
   font-weight: 700;
-  /* font-style: Bold; */
+  font-style: Bold;
 
-  color: white;
+  color: #ffffff;
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.user-profile a span {
-  margin-left: 1rem;
-}
-
 .iconHeader path {
   max-width: 1.4rem;
-  height: auto;
-  border: 1.5px solid #FFFFFF;
-  stroke: #FFFFFF !important;
+  border: 1.5px solid #ffffff;
+  stroke: #ffffff !important;
+  position: absolute;
+  top: 50%;
+  transform: translateY(0%);
 }
 
 @media (max-width: 1024px) {
@@ -89,27 +91,27 @@ header {
 
   .logo {
     max-width: 19.8rem;
-    height: 8.3rem;
+    /* height: 8.3rem; */
   }
 }
 
 @media (max-width: 700px) {
   .containerHeader {
     max-width: 700px;
-    height: auto;
+    max-height: 7.9rem;
     justify-content: space-between;
     padding: 0.9rem 3.2rem;
   }
 
   .logo {
     max-width: 20.7rem;
-    height: auto;
+    /* height: auto; */
     font-size: 4.8rem;
   }
 
   .user-profile {
-    width: 20.1rem;
-    height: 4.1rem;
+    max-width: 20.1rem;
+    max-height: 4.1rem;
 
     display: flex;
     justify-self: center;
@@ -118,7 +120,7 @@ header {
 
   .user-profile a {
     width: 100%;
-    height: auto;
+    /* height: auto; */
     font-size: 1.6rem;
   }
 }
