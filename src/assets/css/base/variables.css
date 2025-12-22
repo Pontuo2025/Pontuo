@@ -1,4 +1,17 @@
 :root {
 	--color-black: #000000;
 	--color-blue-dark: #283c71;
+
+	/* Container e layot  */
+	--container: 1100px;
+	--pad: 16px;
+
+	/* Espaçamento (sem clam)*/
+	--space-1: 8px;
+	--space-2: 12px;
+	--space-3: 16px;
+	--space-4: 24px;
+	--space-5: 32px;
+	--space-6: 48px;
+
 }
