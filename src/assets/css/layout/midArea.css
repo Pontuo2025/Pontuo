@@ -3,7 +3,7 @@
   --color-blue-dark: #283c71;
 }
 
-.topMainSection {
+.TopMainSection {
   background: url(../../img/image-hero.png) no-repeat;
   background-size: cover;
   background-position: center center;
@@ -31,8 +31,116 @@
   max-width: 30ch;
   display: flex;
   flex-direction: column;
-  gap: .4rem;
+  gap: 0.4rem;
 }
+
+.BenefitsSection {
+  background: url(../../img/bgBenefitsSection.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.containerBenefitsSection{
+  width: min(100% - (var(--pad) * 2), var(--container));
+  margin-inline: auto;
+  padding: 1rem;
+}
+
+.benefitsSectionContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benefitsIntro,
+.subTitle {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #283C71;
+  font-weight: 700;
+  padding-top: 1rem;
+}
+
+.textBenefitsIntro {
+  font-size: 1.2rem;
+  color: #000000;
+  font-weight: 500;
+  max-width: 50ch;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.PointsSection {
+  background: url(../../img/bgMobileBotomBenefitsSection.png) no-repeat;
+  background-size: cover;
+  background-position: center center; 
+}
+
+.ccontainerBenefitsSection{
+  width: min(100% - (var(--pad) * 2), var(--container));
+  margin-inline: auto;
+  padding: 1rem;
+}
+.PointsSection ul{
+  list-style: none;
+}
+
+.chat,
+.sos-vector,
+.star-ranking {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center; 
+}
+
+.chat img,
+.sos-vector img,
+.star-ranking img {
+  padding-top: 3rem;
+}
+
+.chat h4,
+.sos-vector h4,
+.star-ranking h4{
+  font-size: 1.6rem;
+  color: #283C71;
+  padding-bottom: 2rem;
+}
+
+.chat img {
+  width: 3.6rem;
+  height: auto;
+
+}
+
+.sos-vector img {
+  width: 4rem;
+  height: auto;
+}
+
+.star-ranking img {
+  width: 3.5rem;
+  height: auto;
+}
+
+.chat p,
+.sos-vector p,
+.star-ranking p {
+  font-size: 1.2rem;
+  color: #000000;
+  max-width: 40ch;
+  font-weight: 400;
+}
+
+/* .subTitle {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #283C71;
+  font-weight: 700;
+  padding-top: 1rem;
+  
+} */
 
 /* @media (min-width: 700px) {
   .containerTopMainSection {
