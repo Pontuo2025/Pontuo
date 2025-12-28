@@ -134,18 +134,45 @@
   font-weight: 400;
 }
 
-/* .subTitle {
-  text-align: center;
-  font-size: 1.8rem;
-  color: #283C71;
-  font-weight: 700;
-  padding-top: 1rem;
-  
-} */
-
-/* @media (min-width: 700px) {
-  .containerTopMainSection {
-    border: red solid;
-    min-height: 93rem;
+@media (min-width: 700px) {
+  .TopMainSection {
+    background: url(../../img/bgTabletTopMainSection.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
   }
+
+  .containerTopMainSection {
+    min-height: 112vh;
+  }
+
+  .heroTitle {
+    font-size: 3.2rem;
+    padding-top: 3rem;
+    line-height: 1.5;
+    gap: 0.6rem;
+  }
+
+  .BenefitsSection {
+    background: url(../../img/bgTabletBenefitsSection.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .benefitsIntro {
+    font-size: 2.8rem;
+  }
+
+  .textBenefitsIntro {
+    font-size: 2rem;
+  }
+
+}
+
+/* @media (min-width: 1024px) {
+   .containerTopMainSection {
+    width: min(100% - (var(--pad) * 2), var(--container));
+    margin-inline: auto;
+    min-height: 112vh;
+    border: rgb(0, 255, 0) solid;
+  } 
 } */
