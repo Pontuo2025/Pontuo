@@ -1,16 +1,15 @@
-header {
+.headerHomePage {
   width: 100%;
+  background-color: #FFFFFF;
 }
 
 .containerHeader{
   width: min(100% - (var(--pad) * 2), var(--container));
-  /* min-height: 7.2rem; */
   margin-inline: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1.2rem 1.6rem;  
-  background-color: white;
   gap: 1.6rem;
 }
 
@@ -54,7 +53,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 0.2rem 0.8rem;
-  border-radius: 1.2rem;
+  border-radius: 0.7rem;
   background-color: #d46c41;
 }
 
