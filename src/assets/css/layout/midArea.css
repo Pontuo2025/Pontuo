@@ -10,7 +10,6 @@
 }
 
 .containerTopMainSection {
-
   width: min(100% - (var(--pad) * 2), var(--container));
   margin-inline: auto;
   min-height: 63svh;
@@ -18,6 +17,7 @@
 
 .topContentArea {
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .heroTitle {
@@ -27,7 +27,6 @@
   padding-top: 1rem;
   margin-inline: auto;
   line-height: 1.2;
-
   max-width: 30ch;
   display: flex;
   flex-direction: column;
@@ -50,6 +49,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .benefitsIntro,
@@ -76,10 +76,11 @@
   background-position: center center; 
 }
 
-.ccontainerBenefitsSection{
+.containerBenefitsSection{
   width: min(100% - (var(--pad) * 2), var(--container));
   margin-inline: auto;
   padding: 1rem;
+  font-family: "Poppins", sans-serif;
 }
 .PointsSection ul{
   list-style: none;
