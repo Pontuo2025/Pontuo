@@ -82,6 +82,89 @@
   line-height: 2rem;
 }
 
+.cardScore li {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+} 
+
+/* =============== TABLET =============== */
+
+@media (min-width: 700px) {
+
+  .BottomMainSection {
+    background: url(../../img/bgTabletBottomMainSection.png) repeat, repeat, repeat no-repeat;
+    background-size: contain;
+  }
+
+  .gamification {
+    font-size: 3rem;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+  }
+
+  .cardScore {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8rem;
+    justify-items: center;
+  }
+
+  .cardScore li {
+    min-width: 20rem;
+    min-height: 30rem;
+  }
+
+  /* Terceiro card (Recompensa) centralizado */
+  .cardScore li:nth-child(3) {
+    grid-column: 1 / -1;
+  }
+
+  .textBottomMainSection {
+    min-width: 40rem;
+    margin-top: 1rem;
+  }
+
+  .textBottomMainSection p {
+    font-size: 1.5rem;
+    max-width: 45ch;
+  }
+
+  .cardScore li {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  } 
+
+  .scorePoint img{
+    width: 10rem;
+    height: 10rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+
+  .coreTrophy img,
+  .scoreMedal img{
+    width: 10rem;
+    height: 15rem;
+  }
+
+ .cardScore h3 {
+  font-size: 2.5rem;
+ }
+
+  .textBottomMainSection {
+    min-width: 52rem;
+    min-height: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .textBottomMainSection p {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    max-width: 30ch;
+  }
+}
+
 /* 
 .bottomMainSection {
   background: url("../../img/backgroundBottomSection.png") center/cover no-repeat;
