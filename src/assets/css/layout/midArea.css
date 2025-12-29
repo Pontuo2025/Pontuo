@@ -87,7 +87,6 @@
   font-size: 2rem;
   color: #283C71;
   font-weight: 700;
-  /* padding-top: 1rem; */
 }
 .contentPointsSection ul{
   list-style: none;
@@ -141,6 +140,11 @@
   font-weight: 400;
 }
 
+.carousel-arrow {
+  display: none;
+}
+
+
 @media (min-width: 700px) {
   .TopMainSection {
     background: url(../../img/bgTabletTopMainSection.png) no-repeat;
@@ -170,7 +174,99 @@
   }
 
   .textBenefitsIntro {
+    font-size: 1.8rem;
+  max-width: 60ch;
+
+  }
+
+  .PointsSection {
+    background: url(../../img/bgTabletPointsSection.png) no-repeat;
+    background-size: cover;
+    background-position: center center; 
+  }
+
+  .containerPointsSection{
+    padding-inline: 4%;
+  }
+
+  .contentPointsSection {
+    position: relative;
+  }
+
+  .subTitle h3 {
+    text-align: center;
     font-size: 2rem;
+    color: #283C71;
+    font-weight: 700;
+  }
+  .contentPointsSection ul{
+    list-style: none;
+  }
+
+  .points-carousel {
+    overflow: hidden;
+    position: relative;
+  }
+  .points-list {
+    display: flex;
+    flex-direction: row;
+    gap: 6%;
+  }
+  .point-card {
+    position: relative;
+    flex: 0 0 44%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-inline: auto;
+  }
+
+  .point-card h4 {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .point-card:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: -3%;
+    top: 10%;
+    width: 4px;
+    height: 80%;
+    background-color: #D46C41;
+    border-radius: 4px;
+  }
+
+  .carousel-arrow {
+    display: block;
+    position: absolute;
+    right: -6%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .points-carousel::after {
+    content: "";
+    position: absolute;
+    right: 5%; /* antes da seta */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 80%;
+    background-color: #D46C41;
+    border-radius: 2px;
+  }
+
+  .chat p,
+  .sos-vector p,
+  .star-ranking p {
+    max-width: 95%;
+    line-height: 1.6;
+ 
   }
 
 }
