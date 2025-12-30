@@ -139,7 +139,6 @@
     margin-bottom: 2.5rem;
   }
 
-
   .coreTrophy img,
   .scoreMedal img{
     width: 10rem;
@@ -165,416 +164,71 @@
   }
 }
 
-/* 
-.bottomMainSection {
-  background: url("../../img/backgroundBottomSection.png") center/cover no-repeat;
-  width: 100%;
-}
+@media (min-width: 1024px) {
 
-.containerBottomSection {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  width: 100%;
-  min-height: 100vh;
-
-  margin: 0 auto;
-  padding: 6rem 8vw;
-}
-.cardBottomCenter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  max-width: 113rem;
-  min-height: 55rem;
-}
-
-.contentBottomCenter h2 {
-  font-size: clamp(2.6rem, 2.2vw, 3.6rem);
-  text-align: center;
-  margin-bottom: 1rem;
-  font-family: "Poppins", sans-serif;
-}
-
-.cardScore {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(260px, 1fr));
-  gap: 4rem;
-  place-items: center;
-
-  width: 100%;
-  max-width: 1200px;
-  margin: 4rem auto 0;
-
-  list-style: none;
-}
-
-.cardScore li {
-  display: grid;
-  place-items: center;
-  text-align: center;
-  justify-content: center;
-
-  width: 100%;
-  max-width: 292px;
-  min-height: 328px;
-
-
-  border-radius: 1.5rem;
-  border: 1px solid #000;
-  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-
-  background-color: #283c71;
-}
-
-.point {
-  max-width: 10.2rem;
-  min-height: 10.2rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.medal {
-  max-width: 10rem;
-  min-height: 15rem;
-}
-
-.trophy {
-  max-width: 10rem;
-  min-height: 15rem;
-}
-
-.cardScore,
-.scoreMedal,
-.scoreTrophy 
-p {
-  font-family: "Poppins", sans-serif;
-  font-size: 3.6rem;
-  font-weight: 600;
-  color: #ffffff;
-}
-
-.textBottomCenter {
-  width: 1130px;
-  margin: 0 auto;
-
-  min-height: 12.4rem;
-  background-color: #d9d9d999;
-  border: 0.2rem solid #d46d41;
-  border-radius: 1.5rem;
-  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.boxText {
-  width: 100%;
-  max-width: 97.4rem;
-  min-height: 9.5rem;
-  margin: 0 auto;
-
-}
-.boxText p {
-  margin: 0 auto;
-  font-family: "Poppins", sans-serif;
-  font-size: 3.2rem;
-  font-weight: 600;
-
-  text-align: center;
-  color: #000000;
-}
-
-
-@media (max-width: 102.4rem) {
-
-.bottomMainSection {
-  background: url("../../img/backgroundBottomSection.png") center/cover no-repeat;
-  width: 100%;
-  display: grid;
-  padding: 0;
-  margin: 0;
-}
-
-.containerBottomSection {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; 
-
-  max-width: 140rem;
-  min-height: 82.8rem;
-  margin: 0 auto;
-  padding: 0;
-}
-
-.cardBottomCenter {
-  display: flex;
-  justify-content: center;
-
-  width: 100%;
-  margin-top: 4rem;
-}
-
-.contentBottomCenter h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 3.6rem;
-  text-align: center;
-
-  line-height: 100%;
-  letter-spacing: 0%;
-
-  color: var(--color-black);
-  padding-top: 13rem;
-  padding-bottom: 6rem;
-}
-
-.cardScore {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 5.6rem;
-
-  justify-content: flex-start;
-  
-
-  list-style: none;
-
-  width: 100%;
-  max-width: 113rem;
-  margin: 0 auto;
-}
-
-.cardScore ul {
-  max-width: 113rem;
-  min-height: 32.8rem;
-  padding: 0;
-}
-
-.cardScore li {
-  display: grid;
-  place-items: center;
-  text-align: center;
-
-  width: 29.2rem;
-  min-height: 32.8rem;
-
-  border-radius: 1.5rem;
-  border: 1px solid #000;
-  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
-
-
-  background-color: #283c71;
-}
-
-.cardScore li:nth-child(3) {
-    grid-column: 1 / -1;
-    justify-self: center;
-    margin-top: 2rem;
-}
-
-.cardScore li:nth-child(1) {
-    justify-self: center;
-    margin-left: 5rem;
-}
-
-.cardScore li:nth-child(2) {
-    justify-self: center;
-    margin-right: 7rem;
-}
-
-.point {
-  max-width: 10.2rem;
-  min-height: 10.2rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-
-.medal {
-  max-width: 10rem;
-  min-height: 15rem;
-}
-
-.trophy {
-  max-width: 10rem;
-  min-height: 15rem;
-}
-
-.cardScore,
-.scoreMedal,
-.scoreTrophy 
- p {
-  font-family: "Poppins", sans-serif;
-  font-size: 3.6rem;
-  font-weight: 600;
-  color: #ffffff;
-}
-
-.textBottomCenter {
-
-  margin: 5rem auto;
-  align-items: center;
-  max-width: 82.6rem;
-  min-height: 12.4rem;
-  background-color: #d9d9d999;
-  border: 0.2rem solid #d46d41;
-  border-radius: 1.5rem;
-  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
-}
-
-.boxText {
-  width: 82.6rem;
-
-}
-
-.boxText p {
-  margin: auto;
-  width: 66.7rem;
-  font-family: "Poppins", sans-serif;
-  font-size: 3.2rem;
-  font-weight: 600;
-
-  text-align: center;
-  color: var(--color-black);
- }
-}
-
-
-@media (max-width: 701px) {
-  .bottomMainSection {
-  width: 100%;
-  min-height: 131.7rem;
-  background-image: url("../../img/backgroundBottomSection.png") left, url("../../img/backgroundBottomSectionRight.png") right;
-   background-repeat: repeat-y, repeat-y;
-  background-position: left top, right top;
-  background-size: contain;
+  .BottomMainSection {
+    background: url(../../img/bgDesktopBottomMainSection.png) no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
-.containerBottomSection {
-  width: 100%;
-  max-width: 70rem;
-  min-height: 131.7rem;
-  padding: 4.8rem 13.7rem 5.6rem 13.7rem;
-}
+  .gamification {
+    font-size: 3.6rem;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+  }
 
-.cardBottomCenter {
-  width: 100%;
-  align-items: center;
-  max-width: 42.6rem;
-  min-height: 3.6rem;
-}
+  /* ===== GRID DOS CARDS ===== */
+  .cardScore {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10rem;
+    justify-items: center;
+  }
 
-.contentBottomCenter h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 2.4rem;
-  text-align: center;
-  margin: 0 auto;
-  padding-top: 0;
-  padding-bottom: 5rem;
-  color: var(--color-black);
-}
+  /* remove regra do tablet */
+  .cardScore li:nth-child(3) {
+    grid-column: auto;
+  }
 
-.cardScore {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-}
+  .cardScore li {
+    min-width: 20rem;
+    min-height: 30rem;
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  }
 
-.cardScore ul {
-  max-width: 70rem;
-  min-height: 121.3rem;
-}
+  .scorePoint h3 {
+    padding-top: 0;
+  }
+  .point {
+    margin-bottom: 2rem;
+  }
+  .scoreMedal img{
+    width: 10rem;
+    height: 15rem;
+  }
+  .trophy{
+    width: 10rem;
+    height: 15rem;   
+  }
 
-.cardScore li {
-  width: 100%;
-  max-width: 33.2rem;
-  min-height: 30rem;
-  margin: 0 auto;
-  justify-items: center;
-  border-radius: 1.5rem;
-  border: 1px solid #000;
-  box-shadow: 0 .4 .4rem rgba(0, 0, 0, 0.25);
-  padding-bottom: 1rem;
-  background-color: #283c71;
-}
+  .cardScore h3 {
+    font-size: 2.8rem;
+  }
 
-.cardScore li:nth-child(1) {
-    justify-self: center;
-    margin-right: 5rem;
-}
+  /* ===== TEXTO INFERIOR ===== */
+  .textBottomMainSection {
+    min-width: 72rem;
+    min-height: 12rem;
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+  }
 
-.point {
-  max-width: 6.6rem;
-  min-height: 6.6rem;
-  margin-bottom: -11rem;
+  .textBottomMainSection p {
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.5;
+    max-width: 42ch;
+    margin-inline: auto;
+  }
 }
-
-.medal {
-  max-width: 6,7rem;
-  min-height: 10rem;
-  margin-bottom: -11rem;
-}
-
-.trophy {
-  max-width: 6.7rem;
-  min-height: 10rem;
-  margin-bottom: -12rem;
-}
-
-.cardScore,
-.scoreMedal,
-.scoreTrophy 
-p {
-  font-family: "Poppins", sans-serif;
-  font-size: 2.2rem;
-  font-weight: 600;
-  color: #ffffff;
-  margin: 0 auto;
-  padding-left: 18rem;
-  width: 70rem;
-}
-
-.scoreTrophy p {
-  margin-bottom: 1rem;
-  margin-right: 18rem;
-}
-
-.textBottomCenter {
-  margin: 5rem auto;
-  align-items: center;
-  max-width: 60rem;
-  min-height: 12.4rem;
-  background-color: #d9d9d999;
-  border: 0.2rem solid #d46d41;
-  border-radius: 1.5rem;
-  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
-  margin-bottom: 0;
-}
-
-.boxText {
-  width: 60rem;
-  margin: 0 auto;
-}
-
-.boxText p {
-  margin: auto;
-  width: 45rem;
-  font-family: "Poppins", sans-serif;
-  font-size: 1.8rem;
-  font-weight: 600;
-  padding-top: 2.2rem;
-  text-align: center;
-  color: var(--color-black);
-}
-
-} */
