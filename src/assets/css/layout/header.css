@@ -126,60 +126,27 @@
   } 
 }
 
-
-/* @media (min-width: 700px) {
-
-  .containerHeader{
-    min-height: 11.6rem;      
-    padding: 0.9rem 3.2rem;  
+@media (min-width: 1024px) {
+  .logo a {
+    font-size: 5.5rem;
   }
 
-  .logo{
-    font-size: 5.5rem;      
-    line-height: 1;         
-  }
-
-  .user-profile{
-    padding: 1.6rem 3.6rem;     
+  .user-profile {
+    padding: 0.5rem 0.1.5rem;
     border-radius: 1.6rem;
+    background-color: #d46c41;
   }
 
-  .user-profile a{
-    font-size: 1.6rem;       
-    line-height: 1;
-  }
-
-  .iconHeader{
-    width: 1.6rem;            
-    height: 1.6rem;
-  }
-} */
-
-/* @media (min-width: 1024px) {
-
-  .containerHeader{
-    height: 11.8rem;   
-    padding: 0.9rem 3.2rem;  
-    max-width: 140rem;
-  }
-
-  .logo{
-    font-size: 5.5rem;     
-    line-height: 1;
-  }
-
-  .user-profile{
-    padding: 1.6rem 3.6rem;
-    border-radius: 1.6rem;
-  }
-
-  .user-profile a{
+  .user-profile a {
+    gap: 0.5rem;
     font-size: 1.6rem;
-    line-height: 1;
+    font-weight: 700;
+    line-height: 1.5;
   }
 
-  .iconHeader{
-    width: 1.6rem;      
-    height: 1.6rem;
+  .iconHeader {
+    width: 2rem;
+    height: auto;
+    padding-top: .3rem;
   }
-} */
+}
