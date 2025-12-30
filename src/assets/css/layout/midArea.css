@@ -309,93 +309,102 @@
   /* ================ *** ============== */
 
   .PointsSection {
-    background: url(../../img/bgTabletPointsSection.png) no-repeat;
+    background: url(../../img/bgDesktopPointsSection.png) no-repeat;
     background-size: cover;
     background-position: center center; 
   }
 
-  .containerPointsSection{
-    padding-inline: 4%;
+  .containerPointsSection {
+    min-width: 100rem;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .contentPointsSection {
-    position: relative;
+    padding-top: 5rem;
+    margin-bottom: 1rem;
   }
 
   .subTitle h3 {
-    text-align: center;
-    font-size: 2rem;
-    color: #283C71;
-    font-weight: 700;
+    font-size: 2.8rem;
+    padding-bottom: 3rem;
   }
-  .contentPointsSection ul{
-    list-style: none;
+
+  .points-list {
+    width: 100%;
+  }
+
+  /* === DESLIGA CARROSSEL === */
+  .carousel-arrow {
+    display: none;
   }
 
   .points-carousel {
-    overflow: hidden;
-    position: relative;
+    overflow: visible;
   }
+
+  /* === GRID DESKTOP === */
   .points-list {
-    display: flex;
-    flex-direction: row;
-    gap: 6%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0; /* IMPORTANTE */
+    width: 100%;
   }
+
   .point-card {
     position: relative;
-    flex: 0 0 44%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-inline: auto;
+    padding: 0 3rem; 
   }
 
-  .point-card h4 {
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
-  }
-
-  .point-card:not(:last-child)::after {
-    content: "";
-    position: absolute;
-    right: -3%;
-    top: 10%;
-    width: 4px;
-    height: 80%;
-    background-color: #D46C41;
-    border-radius: 4px;
-  }
-
-  .carousel-arrow {
-    display: block;
-    position: absolute;
-    right: -6%;
-    top: 50%;
-    transform: translateY(-50%);
-    background: transparent;
-    border: none;
-    cursor: pointer;
-  }
-
+  /* === DIVISORES VERTICAIS (FIGMA) === */
   .points-carousel::after {
-    content: "";
-    position: absolute;
-    right: 5%; 
-    top: 50%;
-    transform: translateY(-50%);
-    width: 2px;
-    height: 80%;
-    background-color: #D46C41;
-    border-radius: 2px;
+  display: none;
+}
+  .points-list .point-card:nth-child(1)::after,
+  .points-list .point-card:nth-child(2)::after {
+    width: 4px;
+  }
+    .points-list .point-card:nth-child(3)::after {
+    display: none;
+  }
+
+  .points-list .point-card:nth-child(n + 4) {
+    display: none;
+  }
+
+  .chat h4,
+  .sos-vector h4,
+  .star-ranking h4{
+    width: 100%;
+    font-size: 2rem;
+    color: #283C71;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .chat img {
+    width: 6rem;
+    height: auto;
+  }
+
+  .sos-vector img {
+    width: 6.8rem;
+    height: auto;
+  }
+
+  .star-ranking img {
+    width: 5.9rem;
+    height: auto;
   }
 
   .chat p,
   .sos-vector p,
   .star-ranking p {
-    max-width: 95%;
-    line-height: 1.6;
- 
+    width: 100%;
+    font-size: 1.8rem;
+    color: #000000;
+    max-width: 40ch;
+    font-weight: 400;
+    line-height: 1.4;
   }
-
 }
