@@ -284,22 +284,29 @@
     max-width: 50ch;
     padding-top: 5rem;
   }
-/* 
+
+  /* ============= *** ============ */
   .BenefitsSection {
-    background: url(../../img/bgTabletBenefitsSection.png) no-repeat;
+    background: url(../../img/bgDesktopBenefitsSection.png) no-repeat;
     background-size: cover;
     background-position: center center;
   }
 
+  .benefitsSectionContent {
+    flex-direction: row;
+    padding: 5rem 0;
+  }
   .benefitsIntro {
-    font-size: 2.8rem;
+    width: 100%;
+    font-size: 3rem;
   }
 
   .textBenefitsIntro {
+    width: 100%;
     font-size: 1.8rem;
-  max-width: 60ch;
-
   }
+
+  /* ================ *** ============== */
 
   .PointsSection {
     background: url(../../img/bgTabletPointsSection.png) no-repeat;
@@ -389,6 +396,6 @@
     max-width: 95%;
     line-height: 1.6;
  
-  } */
+  }
 
 }
