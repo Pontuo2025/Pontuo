@@ -150,3 +150,17 @@
     padding-top: .3rem;
   }
 }
+
+@media (min-width: 1400px) {
+  .containerHeader {
+    width: 100%;
+    min-height: 11.8rem;
+    padding: 3.2rem;
+  }
+
+  .user-profile {
+    min-width: 34rem;
+    min-height: 5.6rem;
+  }
+}
+
