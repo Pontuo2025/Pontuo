@@ -219,5 +219,24 @@
   }
 }
 
+@media (min-width: 1400px) {
 
+  .containerBottomSection {
+    min-width: 130rem;
+  }
+
+  .footer-logo h2 {
+    font-size: 5.5rem;
+    padding-bottom: 6rem;
+  }
+
+
+  .box-main-links a {
+    font-size: 2.4rem;
+  }
+
+  .contact-item {
+    font-size: 2rem;
+  }
+}
 
