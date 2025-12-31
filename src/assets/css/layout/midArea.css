@@ -233,7 +233,7 @@
     right: -3%;
     top: 10%;
     width: 4px;
-    height: 80%;
+    height: 90%;
     background-color: #D46C41;
     border-radius: 4px;
   }
@@ -256,7 +256,7 @@
     top: 50%;
     transform: translateY(-50%);
     width: 2px;
-    height: 80%;
+    height: 90%;
     background-color: #D46C41;
     border-radius: 2px;
   }
@@ -406,5 +406,90 @@
     max-width: 40ch;
     font-weight: 400;
     line-height: 1.4;
+  }
+}
+
+@media (min-width: 1400px) {
+
+  .containerTopMainSection {
+    min-width: 130rem;
+  }
+
+  .topContentArea {
+    min-width: 98.8rem;
+    min-height: 14.4rem;
+  }
+
+  .heroTitle {
+    font-size: 4.8rem;
+    line-height: 1.5;
+    max-width: 40ch;
+    padding-top: 14rem;
+  }
+
+  /* ============= *** ============ */
+
+  .containerBenefitsSection {
+    min-width: 130rem;
+    min-height: 35rem;
+    display: flex;
+  }
+
+  .benefitsSectionContent {
+    width: 135.2rem;
+    padding: 5rem 0;
+    gap: 0;
+  }
+
+  .benefitsIntro {
+    font-size: 3.6rem;
+    text-align: left;
+    flex: 4;
+  }
+
+  .textBenefitsIntro {
+    font-size: 2rem;
+    max-width: 55ch;
+    line-height: 1.5;
+    flex: 6;
+  }
+
+  /* ================ *** ============== */
+
+  .containerPointsSection {
+    min-width: 130rem;
+  }
+
+  .contentPointsSection {
+    width: 100%;
+    min-width: 130rem;
+    padding-top: 5rem;
+    margin-bottom: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .subTitle h3 {
+    font-size: 3.6rem;
+    padding-bottom: 3rem;
+  }
+
+  .points-list li {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .chat h4,
+  .sos-vector h4,
+  .star-ranking h4{
+    font-size: 3.2rem;
+  }
+
+  .chat p,
+  .sos-vector p,
+  .star-ranking p {
+    font-size: 2rem;
+    color: #000000;
+    max-width: 30ch;
   }
 }
