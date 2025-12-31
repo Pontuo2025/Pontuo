@@ -1,54 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pontuo</title>
-    <link rel="stylesheet" href="./src/assets/css/main.css" />
-  </head>
-  <body>
-    <header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pontuo</title>
+  <link rel="stylesheet" href="./src/assets/css/main.css" />
+</head>
+
+<body>
+  <header class="HeaderHomePage">
+    <div class="containerHeader">
       <div class="logo"><a href="#home">Pontuô</a></div>
       <!-- <div class="menu">
-        <ul>
-          <li><a href="#about-us">Quem somos</a></li>
-          <li><a href="#our-services">Nossos serviços</a></li>
-          <li><a href="#contact">Contato</a></li>
-        </ul>
-      </div> -->
+          <ul>
+            <li><a href="#about-us">Quem somos</a></li>
+            <li><a href="#our-services">Nossos serviços</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div> -->
       <div class="user-profile">
-        <a href="#login"
-          >Entrar/Cadastrar
-          <span
-            ><svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 19"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+        <a href="#login">Entrar/Cadastrar
+          <span><svg class="iconHeader" width="24" height="24" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_785_61)">
-                <path
-                  d="M5 12H19"
-                  stroke="white"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M15 16L19 12"
-                  stroke="white"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M15 8L19 12"
-                  stroke="white"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
+                <path d="M5 12H19" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M15 16L19 12" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M15 8L19 12" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
               </g>
               <defs>
                 <clipPath id="clip0_785_61">
@@ -59,46 +36,171 @@
           </span>
         </a>
       </div>
-    </header>
-    <main>
-      <section class="topMainSection">
+    </div>
+  </header>
+  <main>
+    <section class="TopMainSection">
+      <div class="containerTopMainSection">
         <div class="topContentArea">
-          <p>
-            Transforme sua jornada diária em uma experiência segura e
-            colaborativa
-          </p>
+          <h1 class="heroTitle">
+            Transforme sua jornada diária em uma experiência segura e colaborativa
+          </h1>
         </div>
-      </section>
-      <section class="centerMainSection">
-        <div class="firstBottomContentArea">
-          <p>Porque escolher a Pontuô?</p>
-          <p>
-            Somos uma plataforma que revoluciona a experiência do transporte
-            público na cidade de São Paulo. Usando tecnologia e inovação,
-            conectamos você a uma rede colaborativa, onde a informação em tempo
-            real se une para criar trajetos mais seguros e inteligentes.
+      </div>
+    </section>
+
+    <section class="BenefitsSection" aria-labelledby="why-pontuo">
+      <div class="containerBenefitsSection">
+
+        <header class="benefitsSectionContent">
+          <h2 class="benefitsIntro" id="why-pontuo">Por que escolher a Pontuô?</h2>
+
+          <p class="textBenefitsIntro">
+            Somos uma plataforma que revoluciona a experiência do transporte público
+            na cidade de São Paulo. Usando tecnologia e inovação, conectamos você a
+            uma rede colaborativa, onde a informação em tempo real se une para criar
+            trajetos mais seguros e inteligentes.
           </p>
+        </header>
+      </div>
+    </section>
+
+    <section class="PointsSection">
+      <div class="containerPointsSection">
+        <div class="contentPointsSection">
+
+          <div class="subTitle">
+            <h3>O que oferecemos para você</h3>
+          </div>
+
+          <button class="carousel-arrow next" aria-label="Proximo">
+            <svg
+              width="58"
+              height="58"
+              viewBox="0 0 58 58"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+            >
+              <!-- Círculo -->
+              <circle
+                cx="29"
+                cy="29"
+                r="27"
+                stroke="#D46C41"
+                stroke-width="2.34"
+                fill="none"
+              />
+
+              <!-- Seta -->
+              <path
+                d="M24 18 L34 29 L24 40"
+                stroke="#D46C41"
+                stroke-width="2.34"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+              />
+            </svg>
+          </button>
+
+          <div class="points-carousel">
+            <ul class="points-list">
+              <li class="point-card chat">
+                <img src="./src/assets/img/icon/Vector(1).svg" alt="Ícone de compartilhamento">
+                <h4>Compartilhe informações</h4>
+                <p>Relate problemas, faça observações sobre uma linha de ônibus e ajude também outros usuários de transporte público da cidade.</p>
+              </li>
+
+              <li class="point-card sos-vector">
+                <img src="./src/assets/img/icon/Group.svg" alt="Ícone de segurança">
+                <h4>Viaje com segurança</h4>
+                <p>Relate situações de risco durante o trajeto para sua proteção e a de todos. Uma comunidade unida pela segurança.</p>
+              </li>
+
+              <li class="point-card star-ranking">
+                <img src="./src/assets/img/icon/Vector.svg" alt="Ícone de recompensas">
+                <h4>Ganhe recompensas</h4>
+                <p>Ganhe pontos e selos virtuais por sua participação. Sua ajuda se transforma em recompensa.</p>
+              </li>
+            </ul> 
+          </div>
         </div>
-        <div class="subTitle"><h2>O que oferecemos para você</h2></div>
-        <div class="secondBottomContentArea">
-          <ul>
-          <li>
-            <img src="./src/assets/img/icon/Vector(1).svg" alt="">
-            <h2>Compartilhe informações</h2>
-            <p>Relate problemas, faça observações sobre uma linha de ônibus e ajude também outros usuários de tranasporte público da cidade.</p>
-          </li>
-          <li>
-            <img src="./src/assets/img/icon/Group.svg" alt="">
-            <h2>Viaje com segurança</h2>
-            <p>Relate situações de risco durante o trajeto para sua proteção e a de todos. Uma comunidade unida pela segurança.</p>
-          </li>
-          <li>
-            <img src="./src/assets/img/icon/Vector.svg" alt="">
-            <h2>Ganhe recompensas</h2>
-            <p>Ganhe pontos e selos virtuais por sua participação. Sua ajuda se transforma em recompensa.</p>
-          </li>
-        </ul></div>
-      </section>
-    </main>
-  </body>
+      </div>
+      </div>
+    </section>
+
+    <section class="BottomMainSection" aria-labelledby="gamification">
+      <div class="containerBottomSection">
+        <div class="contentBottomMainSection">
+          <h2 class="gamification" id="gamification">Sua participação vale pontos!</h2>
+
+          <div class="cardBottom">
+            <ul class="cardScore">
+              <li class="scorePoint">
+                <img class="point" src="./src/assets/img/Pontos.png" alt="Ícone de pontos">
+                <h3>Pontos</h3>
+              </li>
+
+              <li class="scoreMedal">
+                <img class="medal" src="./src/assets/img/Medalha.png" alt="Ícone de medalha">
+                <h3>Níveis</h3>
+              </li>
+
+              <li class="scoreTrophy">
+                <img class="trophy" src="./src/assets/img/Troféu.png" alt="Ícone de troféu">
+                <h3>Recompensa</h3>
+              </li>
+            </ul>
+          </div>
+
+          <div class="textBottomMainSection">
+            <p>Ganhe pontos ao participar, suba de nível e desbloqueie benefícios
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="FooterHomePage">
+
+    <div class="footer-container">
+
+      <div class="footer-content">
+
+        <div class="footer-logo">
+          <h2>Pontuô</h2>
+        </div>
+        
+        <div class="box-main-links">
+          <nav class="links-group links-left">
+            <a href="#" class="link-item">Quem somos</a>
+            <a href="#" class="link-item">Nossos serviços</a>
+          </nav>
+
+          <nav class="links-group links-middle">
+            <a href="#" class="link-item">Termos de Uso</a>
+            <a href="#" class="link-item">Política de Privacidade</a>
+          </nav>
+
+          <div class="contact-group">
+            <div class="contact-item">
+              <span class="icon">
+                <img class="phoneFooter" src="/src/assets/img/tel-footer.png" alt="">
+              </span> <span>(55) 9000-0011</span>
+            </div>
+            <div class="contact-item">
+              <span class="icon">
+                <img class="emailFooter" src="/src/assets/img/email-footer.png" alt="">
+              </span>
+              <span class="email-text">pontuocliente@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <script src="/src/assets/js/carousel.js"></script>
+</body>
 </html>

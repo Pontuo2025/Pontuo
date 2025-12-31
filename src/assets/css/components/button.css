@@ -1,7 +1,7 @@
 /* Botão principal de login */
 .loginButton {
-  width: 22rem;
-  height: 3.75rem;
+  max-width: 35.2rem;
+  min-height: 6rem;
 
   background: var(--color-button--primary);
   color: var(--color-text--primary);
@@ -50,12 +50,12 @@
 .cta-button {
   background: var(--color-button--primary);
   color: var(--color-text--primary);
-  padding: 1rem 2rem;
+  padding: 1.6rem 3.2rem;
   border: none;
-  border-radius: 1rem;
+  border-radius: 1.6rem;
   cursor: pointer;
 
   font-family: Poppins;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.6rem;
 }

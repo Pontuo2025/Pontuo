@@ -2,163 +2,494 @@
   --color-black: #000000;
   --color-blue-dark: #283c71;
 }
-main {
-  height: 100vh;
-  width: 100%;
+
+.TopMainSection {
+  background: url(../../img/image-hero.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.containerTopMainSection {
+  width: min(100% - (var(--pad) * 2), var(--container));
+  margin-inline: auto;
+  min-height: 63svh;
 }
 
 .topContentArea {
-  background: url("../../img/image 27.png");
-  background-size: 100% 960px;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  height: 960px;
-  width: 100%;
-}
-
-.topContentArea p {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 48px;
   text-align: center;
-
-  color: var(--color-black);
-
-  padding-left: 1.4375rem;
-  padding-top: 6.4375rem;
-  width: 61.9375rem;
+  font-family: "Poppins", sans-serif;
 }
 
-.centerMainSection {
-  background: url("../../img/background.png");
-  background-size: 100% 911px;
-  background-repeat: no-repeat;
-  background-position: center;
+.heroTitle {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #000000;
+  padding-top: 1rem;
+  margin-inline: auto;
+  line-height: 1.2;
+  max-width: 30ch;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
 
-  height: 911px;
-  width: 100%;
+.BenefitsSection {
+  background: url(../../img/bgMobileBenefitsSection.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
+.containerBenefitsSection{
+  width: min(100% - (var(--pad) * 2), var(--container));
+  margin-inline: auto;
+  padding: 1rem;
+}
+
+.benefitsSectionContent {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.firstBottomContentArea {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  width: 100%;
-  padding-top: 4.8125rem;
-}
-
-.firstBottomContentArea p:nth-child(1) {
   font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
+}
+
+.benefitsIntro {
   text-align: center;
-
-  color: var(--color-blue-dark);
-
-  width: fit-content;
-  padding-top: 5.5rem;
-  padding-left: 3.5rem;
+  font-size: 1.8rem;
+  color: #283C71;
+  font-weight: 700;
+  padding-top: 1rem;
 }
 
-.firstBottomContentArea p:nth-child(2) {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
+.textBenefitsIntro {
+  font-size: 1.2rem;
+  color: #000000;
   font-weight: 500;
-  font-size: 20px;
-
-  color: var(--color-black);
-
-  width: 42.0625rem;
+  max-width: 50ch;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.subTitle {
+.PointsSection {
+  background: url(../../img/bgMobilePointsSection.png) no-repeat;
+  background-size: cover;
+  background-position: center center; 
+}
+
+.containerPointsSection{
+  width: min(100% - (var(--pad) * 2), var(--container));
+  margin-inline: auto;
+  padding: 1rem;
   font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
+}
+
+.subTitle h3 {
   text-align: center;
-
-  color: var(--color-blue-dark);
-
-  padding-top: 4.3125rem;
-  padding-bottom: 4.4375rem;
-  width: fit-content;
+  font-size: 2rem;
+  color: #283C71;
+  font-weight: 700;
 }
-
-.secondBottomContentArea {
-  width: 100%;
-  padding: 0 5.813rem;
-}
-.secondBottomContentArea ul {
-  display: flex;
-  justify-content: space-between;
+.contentPointsSection ul{
   list-style: none;
 }
-.secondBottomContentArea ul li {
+
+.chat,
+.sos-vector,
+.star-ranking {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: 27rem;
+  align-items: center; 
+  text-align: center; 
 }
 
-.secondBottomContentArea ul li h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 32px;
-
-  color: var(--color-blue-dark);
-
-  margin-top: 1.25rem;
-  margin-bottom: 1rem;
-
-  width: max-content;
+.chat img,
+.sos-vector img,
+.star-ranking img {
+  padding-top: 3rem;
 }
 
-.secondBottomContentArea ul li p {
-  font-family: "Poppins", sans-serif;
+.chat h4,
+.sos-vector h4,
+.star-ranking h4{
+  font-size: 1.6rem;
+  color: #283C71;
+  padding-bottom: 2rem;
+}
+
+.chat img {
+  width: 3.6rem;
+  height: auto;
+
+}
+
+.sos-vector img {
+  width: 4rem;
+  height: auto;
+}
+
+.star-ranking img {
+  width: 3.5rem;
+  height: auto;
+}
+
+.chat p,
+.sos-vector p,
+.star-ranking p {
+  font-size: 1.2rem;
+  color: #000000;
+  max-width: 40ch;
   font-weight: 400;
-  font-size: 20px;
-
-  text-align: center;
-  color: var(--color-black);
-  width: 23rem;
 }
 
-.secondBottomContentArea ul li:nth-child(1) {
-  position: relative;
-  box-sizing: border-box;
+.carousel-arrow {
+  display: none;
 }
 
-.secondBottomContentArea ul li:nth-child(1)::after {
-  content: "";
-  position: absolute;
-  top: 4.6875rem;
-  right: -10px;
-  width: 5px;
-  height: 13rem; /* altura da borda */
-  background: #D46C41;
+
+@media (min-width: 700px) {
+  .TopMainSection {
+    background: url(../../img/bgTabletTopMainSection.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .containerTopMainSection {
+    min-height: 112vh;
+  }
+
+  .heroTitle {
+    font-size: 3.2rem;
+    padding-top: 3rem;
+    line-height: 1.5;
+    gap: 0.6rem;
+  }
+
+  .BenefitsSection {
+    background: url(../../img/bgTabletBenefitsSection.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .benefitsIntro {
+    font-size: 2.8rem;
+  }
+
+  .textBenefitsIntro {
+    font-size: 1.8rem;
+  max-width: 60ch;
+
+  }
+
+  .PointsSection {
+    background: url(../../img/bgTabletPointsSection.png) no-repeat;
+    background-size: cover;
+    background-position: center center; 
+  }
+
+  .containerPointsSection{
+    padding-inline: 4%;
+  }
+
+  .contentPointsSection {
+    position: relative;
+  }
+
+  .subTitle h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: #283C71;
+    font-weight: 700;
+  }
+  .contentPointsSection ul{
+    list-style: none;
+  }
+
+  .points-carousel {
+    overflow: hidden;
+    position: relative;
+  }
+  .points-list {
+    display: flex;
+    flex-direction: row;
+    gap: 6%;
+  }
+  .point-card {
+    position: relative;
+    flex: 0 0 44%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-inline: auto;
+  }
+
+  .point-card h4 {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .point-card:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: -3%;
+    top: 10%;
+    width: 4px;
+    height: 90%;
+    background-color: #D46C41;
+    border-radius: 4px;
+  }
+
+  .carousel-arrow {
+    display: block;
+    position: absolute;
+    right: -6%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .points-carousel::after {
+    content: "";
+    position: absolute;
+    right: -3%; /* antes da seta */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 90%;
+    background-color: #D46C41;
+    border-radius: 2px;
+  }
+
+  .chat p,
+  .sos-vector p,
+  .star-ranking p {
+    max-width: 90%;
+    line-height: 1.6;
+ 
+  }
+
 }
 
-.secondBottomContentArea ul li:nth-child(2) {
-  position: relative;
-  box-sizing: border-box;
+@media (min-width: 1024px) {
+  .TopMainSection {
+    background: url(../../img/bgDesktopTopMainSection.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .heroTitle {
+    font-size: 4rem;
+    line-height: 1.5;
+    max-width: 50ch;
+    padding-top: 5rem;
+  }
+
+  /* ============= *** ============ */
+  .BenefitsSection {
+    background: url(../../img/bgDesktopBenefitsSection.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .benefitsSectionContent {
+    flex-direction: row;
+    padding: 5rem 0;
+  }
+  .benefitsIntro {
+    width: 100%;
+    font-size: 3rem;
+  }
+
+  .textBenefitsIntro {
+    width: 100%;
+    font-size: 1.8rem;
+  }
+
+  /* ================ *** ============== */
+
+  .PointsSection {
+    background: url(../../img/bgDesktopPointsSection.png) no-repeat;
+    background-size: cover;
+    background-position: center center; 
+  }
+
+  .containerPointsSection {
+    min-width: 100rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .contentPointsSection {
+    padding-top: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .subTitle h3 {
+    font-size: 2.8rem;
+    padding-bottom: 3rem;
+  }
+
+  .points-list {
+    width: 100%;
+  }
+
+  /* === DESLIGA CARROSSEL === */
+  .carousel-arrow {
+    display: none;
+  }
+
+  .points-carousel {
+    overflow: visible;
+  }
+
+  /* === GRID DESKTOP === */
+  .points-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0; /* IMPORTANTE */
+    width: 100%;
+  }
+
+  .point-card {
+    position: relative;
+    padding: 0 3rem; 
+  }
+
+  /* === DIVISORES VERTICAIS (FIGMA) === */
+  .points-carousel::after {
+  display: none;
+}
+  .points-list .point-card:nth-child(1)::after,
+  .points-list .point-card:nth-child(2)::after {
+    width: 4px;
+  }
+    .points-list .point-card:nth-child(3)::after {
+    display: none;
+  }
+
+  .points-list .point-card:nth-child(n + 4) {
+    display: none;
+  }
+
+  .chat h4,
+  .sos-vector h4,
+  .star-ranking h4{
+    width: 100%;
+    font-size: 2rem;
+    color: #283C71;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .chat img {
+    width: 6rem;
+    height: auto;
+  }
+
+  .sos-vector img {
+    width: 6.8rem;
+    height: auto;
+  }
+
+  .star-ranking img {
+    width: 5.9rem;
+    height: auto;
+  }
+
+  .chat p,
+  .sos-vector p,
+  .star-ranking p {
+    width: 100%;
+    font-size: 1.8rem;
+    color: #000000;
+    max-width: 40ch;
+    font-weight: 400;
+    line-height: 1.4;
+  }
 }
 
-.secondBottomContentArea ul li:nth-child(2)::after {
-  content: "";
-  position: absolute;
-  top: 4.6875rem;
-  right: -10px;
-  width: 5px;
-  height: 13rem; /* altura da borda */
-  background: #D46C41;
+@media (min-width: 1400px) {
+
+  .containerTopMainSection {
+    min-width: 130rem;
+  }
+
+  .topContentArea {
+    min-width: 98.8rem;
+    min-height: 14.4rem;
+  }
+
+  .heroTitle {
+    font-size: 4.8rem;
+    line-height: 1.5;
+    max-width: 40ch;
+    padding-top: 14rem;
+  }
+
+  /* ============= *** ============ */
+
+  .containerBenefitsSection {
+    min-width: 130rem;
+    min-height: 35rem;
+    display: flex;
+  }
+
+  .benefitsSectionContent {
+    width: 135.2rem;
+    padding: 5rem 0;
+    gap: 0;
+  }
+
+  .benefitsIntro {
+    font-size: 3.6rem;
+    text-align: left;
+    flex: 4;
+  }
+
+  .textBenefitsIntro {
+    font-size: 2rem;
+    max-width: 55ch;
+    line-height: 1.5;
+    flex: 6;
+  }
+
+  /* ================ *** ============== */
+
+  .containerPointsSection {
+    min-width: 130rem;
+  }
+
+  .contentPointsSection {
+    width: 100%;
+    min-width: 130rem;
+    padding-top: 5rem;
+    margin-bottom: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .subTitle h3 {
+    font-size: 3.6rem;
+    padding-bottom: 3rem;
+  }
+
+  .points-list li {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .chat h4,
+  .sos-vector h4,
+  .star-ranking h4{
+    font-size: 3.2rem;
+  }
+
+  .chat p,
+  .sos-vector p,
+  .star-ranking p {
+    font-size: 2rem;
+    color: #000000;
+    max-width: 30ch;
+  }
 }

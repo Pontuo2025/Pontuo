@@ -7,8 +7,9 @@
 /* Layout */
 @import url("./layout/container.css");
 @import url("./layout/header.css");
-@import url("./layout/footer.css");
 @import url("./layout/midArea.css");
+@import url("./layout/bottomArea.css");
+@import url("./layout/footer.css");
 
 /* Components */
 @import url("./components/button.css");
