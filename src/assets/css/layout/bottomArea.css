@@ -232,3 +232,47 @@
     margin-inline: auto;
   }
 }
+
+@media (min-width: 1400px) {
+
+  .contentBottomMainSection {
+    min-width: 113rem;
+    gap: 4.6rem;
+  }
+
+  .gamification {
+    min-width: 113rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+
+  .cardScore li {
+    min-width: 29.2rem;
+    min-height: 32.8rem;
+  }
+
+  .scorePoint h3 {
+    padding-top: 0;
+  }
+
+  .scorePoint img{
+    width: 10.2rem;
+    height: 10.2rem;
+  }
+
+  .cardScore h3 {
+    font-size: 3.6rem;
+  }
+
+  /* ===== TEXTO INFERIOR ===== */
+  .textBottomMainSection {
+    min-width: 113rem;
+    min-height: 12.4rem;
+
+  }
+
+  .textBottomMainSection p {
+    font-size: 3.2rem;
+    max-width: 50ch;
+  }
+}
