@@ -252,7 +252,7 @@
   .points-carousel::after {
     content: "";
     position: absolute;
-    right: 5%; /* antes da seta */
+    right: -3%; /* antes da seta */
     top: 50%;
     transform: translateY(-50%);
     width: 2px;
@@ -264,7 +264,7 @@
   .chat p,
   .sos-vector p,
   .star-ranking p {
-    max-width: 95%;
+    max-width: 90%;
     line-height: 1.6;
  
   }
