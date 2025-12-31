@@ -40,7 +40,7 @@
   align-items: center;
   justify-content: center;
   background-color: rgb(40, 60, 113);
-  opacity: 0.90;
+  border: 1px solid #000000;
   width: 22rem;
   min-height: 20rem;
   border-radius: 1.5rem;
